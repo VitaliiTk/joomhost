@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    border-top: 1px solid #267ae9;;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 87px;
+    }
+}
+
+.menu{
+    &__list{
+        display: flex;
+    }
+    &__item + &__item{
+        margin-left: 38px;
+    }
+    &__link{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2f3f54;
+    }
+}
