@@ -6,39 +6,26 @@ a{
     text-decoration: none;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    // line-height: 24px;
+
+}
+
 .container{
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.header{
-    border-top: 1px solid #2c7de8; 
-    &__inner{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 87px;
-    }
-}
+@import "header";
+@import "top"
 
-.menu{
-    &__list{
-        display: flex;
-    }
-    &__item + &__item{
-        margin-left: 38px;
-    }
-    &__link{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #2f3f54;
-    }
-}
 
-.top{
-    background-color: #2c7de8;
-    padding: 165px 0 184px 0;    
-}
+// .top__img {
+// }
+// .top__btn-descr {
+// }
+// .top__images {
+// }

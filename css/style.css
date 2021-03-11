@@ -7,6 +7,11 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
 .container {
   max-width: 1170px;
   padding: 0 15px;
@@ -51,4 +56,119 @@ a {
 .top {
   background-color: #2c7de8;
   padding: 165px 0 184px 0;
+}
+
+.top__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top__info {
+  max-width: 555px;
+  margin-right: 38px;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.top__subtitle {
+  line-height: 24px;
+}
+
+.top__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+
+.top__descr {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 42px;
+}
+
+.top__descr span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+}
+
+.top__list {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.top__list-item {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.top__list-item::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/check-box.png);
+  width: 13px;
+  height: 13px;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.top__btn {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 3px solid #fff;
+  padding: 13px 44px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.top__images-box {
+  position: relative;
+}
+
+.top__circle {
+  width: 229px;
+  height: 229px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  right: -102px;
+}
+
+.top__circle-title {
+  font-size: 14px;
+  line-height: 24px;
+  color: #212121;
+  margin-bottom: 16px;
+}
+
+.top__circle-price {
+  font-size: 54px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #212121;
+  margin-bottom: 2px;
+}
+
+.top__circle-data {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #212121;
+  text-align: right;
 }

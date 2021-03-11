@@ -1,0 +1,25 @@
+.header{
+    border-top: 1px solid #2c7de8; 
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 87px;
+    }
+}
+
+.menu{
+    &__list{
+        display: flex;
+    }
+    &__item + &__item{
+        margin-left: 38px;
+    }
+    &__link{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2f3f54;
+    }
+}
