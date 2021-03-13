@@ -1,0 +1,59 @@
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #2f3f54;
+    text-align: center;
+    & span {
+        color: #2575e7;
+    }
+}
+
+.price {
+    padding: 155px 0 180px;
+    &__descr {
+        line-height: 24px;
+        color: #4a6385;
+        margin-top: 47px;
+        margin-bottom: 124px;
+        max-width: 585px;
+        text-align: center;
+        margin: 47px auto 124px;
+        & span {
+            color: #42d6c1;
+        }
+    }
+    &__descr-link {
+        color: #e74c3c;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.price-item {
+    max-width: 360px;
+    min-height: 661px;
+    background-color: #ffffff;
+    box-shadow: 0px 21px 49px 1px rgba(41,44,61,0.15);
+    border-radius: 2px 2px 0px 0px;
+}
+
+.price-item__number {
+}
+.price-item__images {
+}
+.price-item__img {
+}
+.price-item__title {
+}
+.price-item__text {
+}
+.price-item__list {
+}
+.price-item__list-item {
+}
+.price-item__btn {
+}
