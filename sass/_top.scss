@@ -77,24 +77,23 @@
         position: absolute;
         top: -40px;
         right: -102px;
-        padding: 0 46px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        // align-items: center;
+        align-items: center;
+        font-size: 14px;
+        color: #212121;
     }
     &__circle-title {
-        font-size: 14px;
         line-height: 24px;
         font-weight: 700;
-        color: #212121;
-        margin-bottom: 10px;
+        text-align: left;
+        width: 140px;
     }
     &__circle-price {
         font-size: 54px;
         line-height: 54px;
         font-weight: 700;
-        color: #212121;
     }
     &__circle-data {
         font-size: 14px;
@@ -103,12 +102,6 @@
         // font-weight: 400;
         color: #212121;
         text-align: right;
+        width: 140px;
     }
 }
-
-// .top__img {
-// }
-// .top__btn-descr {
-// }
-// .top__images {
-// }
