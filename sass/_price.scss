@@ -36,11 +36,9 @@
 .price-item {
     overflow: hidden;
     max-width: 360px;
-    // min-height: 661px;
     background-color: #ffffff;
     box-shadow: 0px 21px 49px 1px rgba(41,44,61,0.15);
-    // border-radius: 2px 2px 0px 0px;
-    padding: 120px 40px 0 49px;
+    padding: 120px 40px 60px 49px;
     line-height: 24px;
     position: relative;
     &__number {
@@ -61,12 +59,15 @@
         padding-bottom: 40px;
         & span {
             font-size: 16px;
+            line-height: 16px;
         }
     }
     &__images {
-        // padding-top: 120px;
         text-align: center;
         margin-bottom: 30px;
+    }
+    &__img {
+        min-height: 123px;
     }
     &__title {
         font-family: 'Roboto', sans-serif;
@@ -104,7 +105,18 @@
             background-image: url(../images/price-icon.png);
         }
     }
-}
-
-.price-item__btn {
+    &__btn {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        color: #fff;
+        background-color: #267AE9;
+        font-weight: 700;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        text-align: center;
+        padding: 18px 10px;
+    }
 }

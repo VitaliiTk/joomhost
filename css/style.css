@@ -238,7 +238,7 @@ body {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
           box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
-  padding: 120px 40px 0 49px;
+  padding: 120px 40px 60px 49px;
   line-height: 24px;
   position: relative;
 }
@@ -269,11 +269,16 @@ body {
 
 .price-item__number span {
   font-size: 16px;
+  line-height: 16px;
 }
 
 .price-item__images {
   text-align: center;
   margin-bottom: 30px;
+}
+
+.price-item__img {
+  min-height: 123px;
 }
 
 .price-item__title {
@@ -316,4 +321,19 @@ body {
   width: 16px;
   height: 16px;
   background-image: url(../images/price-icon.png);
+}
+
+.price-item__btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #fff;
+  background-color: #267AE9;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  padding: 18px 10px;
 }
