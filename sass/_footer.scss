@@ -1,6 +1,6 @@
 .footer {
     background-color: #304054;
-    padding: 86px 0 144px;
+    padding: 85px 0 128px;
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -47,7 +47,22 @@
                 color: #718db2;
             }
         }
+        & textarea {
+            resize: none;
+            height: 85px;
+        }
         & button {
+            font-family: 'Roboto', sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            background-color: #2575e7;
+            border: none;
+            cursor: pointer;
+            padding: 12px;
+            margin-top: 10px;
+            text-transform: uppercase;
         }
     }
 }

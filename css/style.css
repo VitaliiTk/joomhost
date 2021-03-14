@@ -340,7 +340,7 @@ body {
 
 .footer {
   background-color: #304054;
-  padding: 86px 0 144px;
+  padding: 85px 0 128px;
 }
 
 .footer__inner {
@@ -422,6 +422,25 @@ body {
   font-size: 11px;
   font-weight: 400;
   color: #718db2;
+}
+
+.footer__form textarea {
+  resize: none;
+  height: 85px;
+}
+
+.footer__form button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2575e7;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  margin-top: 10px;
+  text-transform: uppercase;
 }
 
 .footer-col__logo {
