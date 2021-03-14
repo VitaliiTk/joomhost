@@ -347,7 +347,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 524px;
   min-height: 350px;
   -webkit-box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
           box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
@@ -404,12 +403,14 @@ body {
 
 .reviews-slider {
   margin-top: 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+.slick-list {
+  margin: 0 -50px;
+}
+
+.slick-track {
+  margin: 0 50px;
 }
 
 .footer-col__logo {
