@@ -5,7 +5,8 @@
         display: flex;
         justify-content: space-between;
     }
-    &__logo-img {
+    &__logo {
+        display: inline-block;
         margin-bottom: 30px;
     }
     &__text {
