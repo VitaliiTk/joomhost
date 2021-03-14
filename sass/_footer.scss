@@ -29,6 +29,26 @@
     }
     &__form {
         width: 263px;
+        & input, & textarea {
+            border: 1px solid rgba(#fff, .05);
+            background-color: transparent;
+            height: 40px;
+            display: block;
+            width: 100%;
+            padding: 12px;
+            font-family: 'Lato', sans-serif;
+            font-size: 11px;
+            font-weight: 400;
+            color: #718db2;
+            &::placeholder {
+                font-family: 'Lato', sans-serif;
+                font-size: 11px;
+                font-weight: 400;
+                color: #718db2;
+            }
+        }
+        & button {
+        }
     }
 }
 

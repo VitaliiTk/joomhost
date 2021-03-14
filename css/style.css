@@ -383,6 +383,47 @@ body {
   width: 263px;
 }
 
+.footer__form input, .footer__form textarea {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: transparent;
+  height: 40px;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #718db2;
+}
+
+.footer__form input::-webkit-input-placeholder, .footer__form textarea::-webkit-input-placeholder {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #718db2;
+}
+
+.footer__form input:-ms-input-placeholder, .footer__form textarea:-ms-input-placeholder {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #718db2;
+}
+
+.footer__form input::-ms-input-placeholder, .footer__form textarea::-ms-input-placeholder {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #718db2;
+}
+
+.footer__form input::placeholder, .footer__form textarea::placeholder {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #718db2;
+}
+
 .footer-col__logo {
   width: 283px;
 }
