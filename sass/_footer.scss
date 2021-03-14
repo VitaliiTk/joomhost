@@ -50,6 +50,7 @@
         & textarea {
             resize: none;
             height: 85px;
+            margin-bottom: 10px;
         }
         & button {
             font-family: 'Roboto', sans-serif;
@@ -61,7 +62,6 @@
             border: none;
             cursor: pointer;
             padding: 12px;
-            margin-top: 10px;
             text-transform: uppercase;
         }
     }

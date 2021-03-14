@@ -427,6 +427,7 @@ body {
 .footer__form textarea {
   resize: none;
   height: 85px;
+  margin-bottom: 10px;
 }
 
 .footer__form button {
@@ -439,7 +440,6 @@ body {
   border: none;
   cursor: pointer;
   padding: 12px;
-  margin-top: 10px;
   text-transform: uppercase;
 }
 
