@@ -1,0 +1,51 @@
+.footer {
+    background-color: #304054;
+    padding: 86px 0 144px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo-img {
+        margin-bottom: 30px;
+    }
+    &__text {
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #718db2;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(#fff, .05);
+    }
+    &__list {
+        list-style: none;
+    }
+    &__list-item {
+        margin-bottom: 8px;
+    }
+    &__list-link {
+        color: #718db2;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    &__form {
+        width: 263px;
+    }
+}
+
+.footer-col__logo {
+    width: 283px;
+}
+
+.footer__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #d0e4ff;
+    margin-bottom: 30px;
+}
+
+.footer-menu {
+    width: 166px;
+}
+
