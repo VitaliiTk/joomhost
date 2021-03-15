@@ -44,12 +44,34 @@
     margin-top: 120px;
     // display: flex;
     // justify-content: space-between;
-}
-
-.slick-list{
-    margin: 0 -50px;
-}
-
-.slick-track{
-    margin: 0 50px;
+    & .slick-list{
+        margin: 0 -50px;
+    }
+    & .slick-track{
+        margin: 0 50px;
+    }
+    & .slick-dots {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        & li {
+            margin: 0 8px;
+        }
+        & button {
+            font-size: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            padding: 0;
+            border: none;
+            background-color: #267ae9;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+    & .slick-active button {
+        border: 2px solid #267ae9;
+        background-color: #fff;
+    }
 }
