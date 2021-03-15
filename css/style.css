@@ -409,8 +409,9 @@ body {
   margin: 0 -50px;
 }
 
-.reviews-slider .slick-track {
+.reviews-slider .slick-slide {
   margin: 0 50px;
+  padding-bottom: 70px;
 }
 
 .reviews-slider .slick-dots {
@@ -421,7 +422,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 50px;
 }
 
 .reviews-slider .slick-dots li {

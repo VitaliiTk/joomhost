@@ -47,14 +47,14 @@
     & .slick-list{
         margin: 0 -50px;
     }
-    & .slick-track{
+    & .slick-slide{
         margin: 0 50px;
+        padding-bottom: 70px;
     }
     & .slick-dots {
         list-style: none;
         display: flex;
         justify-content: center;
-        margin-top: 50px;
         & li {
             margin: 0 8px;
         }
