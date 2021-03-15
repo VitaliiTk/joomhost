@@ -549,6 +549,10 @@ body {
   color: #718db2;
 }
 
+.footer__form input:focus, .footer__form input:active, .footer__form textarea:focus, .footer__form textarea:active {
+  outline: 1px solid #63a9ff;
+}
+
 .footer__form textarea {
   resize: none;
   height: 85px;
@@ -566,4 +570,13 @@ body {
   cursor: pointer;
   padding: 12px;
   text-transform: uppercase;
+}
+
+.footer__form button:focus, .footer__form button:active {
+  outline: 1px solid #63a9ff;
+}
+
+.brands {
+  padding: 98px 0 80px;
+  text-align: center;
 }

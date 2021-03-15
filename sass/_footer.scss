@@ -64,6 +64,10 @@
                 font-weight: 400;
                 color: #718db2;
             }
+            &:focus,
+            &:active {
+                outline: 1px solid #63a9ff;
+            }
         }
         & textarea {
             resize: none;
@@ -81,6 +85,10 @@
             cursor: pointer;
             padding: 12px;
             text-transform: uppercase;
+            &:focus,
+            &:active {
+                outline: 1px solid #63a9ff;
+            }
         }
     }
 }
