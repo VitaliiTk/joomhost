@@ -8,11 +8,22 @@
     }
 }
 
+.btn__menu{
+    width: 40px;
+    display: none;
+}
+
+.btn__menu div{
+    height: 5px;
+    background-color: #000;
+    margin-bottom: 5px;
+}
+
 .menu{
     &__list{
         display: flex;
     }
-    &__item + &__item{
+    &__item{
         margin-left: 38px;
     }
     &__link{

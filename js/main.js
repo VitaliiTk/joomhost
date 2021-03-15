@@ -9,4 +9,8 @@ $(function(){
         autoplay: true,
         autoplaySpeed: 1000
       });
+
+      $('.btn__menu').on('click', function(){
+        $('.menu__list').slideToggle();
+      });
 });
