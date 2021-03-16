@@ -69,10 +69,20 @@
             background-color: #fff;
         }
     }
+    .footer__inner{
+        flex-wrap: wrap;
+    }
 }
 @media (max-width: 980px){
     .top__info{
         max-width: 325px;
+    }
+    .footer-col__logo{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-menu{
+        margin-bottom: 45px;
     }
 }
 @media (max-width: 850px){
@@ -135,6 +145,14 @@
         margin-bottom: 20px;
     }
 }
+@media (max-width: 671px){
+    .footer{
+        padding: 50px 0 60px;
+    }
+    .footer__form{
+        width: 100%;
+    }
+}
 @media (max-width: 580px){
     .reviews__box{
         display: block;
@@ -154,6 +172,9 @@
     }
     .reviews-slider .slick-slide{
         padding-bottom: 30px;
+    }
+    .brands{
+        padding: 60px 0 60px;
     }
 }
 @media (max-width: 399px){
@@ -178,6 +199,17 @@
         &__descr{
             margin-bottom: 47px;
         }
+    } 
+    .brands__img{
+        display: block;
+        width: 40%;
+    }
+}
+@media (max-width: 346px){
+    .brands__img{
+        display: block;
+        width: 40%;
+        // margin: 0 auto;
     }
 }
 

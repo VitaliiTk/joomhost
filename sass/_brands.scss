@@ -1,4 +1,12 @@
 .brands {
     padding: 98px 0 80px;
     text-align: center;
+    &__inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__img{
+        margin: 0 15px;
+    }
 }
