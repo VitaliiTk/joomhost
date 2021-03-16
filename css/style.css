@@ -744,6 +744,27 @@ body {
   .top__circle-data {
     width: 95px;
   }
+  .top,
+  .price,
+  .brands,
+  .footer {
+    padding: 50px 0 50px;
+  }
+  .price__descr {
+    margin-bottom: 47px;
+  }
+}
+
+@media (max-width: 736px) {
+  .top,
+  .price,
+  .brands,
+  .footer {
+    padding: 50px 0 50px;
+  }
+  .price__descr {
+    margin-bottom: 47px;
+  }
 }
 
 @media (max-width: 719px) {
@@ -766,6 +787,10 @@ body {
 }
 
 @media (max-width: 671px) {
+  .top,
+  .price {
+    padding: 50px 0 50px;
+  }
   .footer {
     padding: 50px 0 60px;
   }
